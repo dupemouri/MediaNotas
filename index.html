@@ -30,21 +30,21 @@
         <li class="nav-item">
           <a class="nav-link"  href="#">Cadastrar notas</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link"  href="#">Alunos</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#">Resumo de notas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#">Alunos</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Conta
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Fazer login</a></li>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Fazer login</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Criar conta</a></li>        
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -55,6 +55,26 @@
     </div>
   </div>
 </nav>
+     
+  
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     
     <main class="container">
@@ -145,21 +165,169 @@
                     <tr>
                         <td colspan="8">Dados atualizados em: </td>
                     </tr>
-                </tfoot>
-                
-                
-                
-                
+                </tfoot>                
             </table>
         </div>
-            
-       
+        <h3 class="display-6 mb-4">Alunos em destaque</h3>
+
+        <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-2 my-4">
+          <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+        <div class="card my-3">
+    <img src="./images/foto.jpg" class="card-img-top" alt="Foto do aluon Pedro Eduardo">
+    <div class="text-center">
+    <h5 class="card-title">Pedro Eduardo</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="my-4 d-flex justify-content-center">
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-instagram"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-linkedin"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-github"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-dribbble"></i></a>
+      <a href=""><i class="text-light border p-2 rounded bg-dark fs-4  mx-1 bi bi-youtube"></i></a>
+    </div>
+    <a href="#" class="btn btn-outline-dark w-50">Quero conectar</a> 
+           </div>
+       </div>
+
+
+        </section>
+
+
+
+
+
 
 
     </main>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
   </body>
